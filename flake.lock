@@ -866,11 +866,11 @@
         "nixpkgs": "nixpkgs_7"
       },
       "locked": {
-        "lastModified": 1794991825,
-        "narHash": "sha256-5Krl7rBM3JQwh+2tqivUiwbNa/5VYIYtSHPnmo4xQos=",
+        "lastModified": 1795286792,
+        "narHash": "sha256-TtstCeqvIPnYEZsB4wp+NzcpXwFO1FabiMPxReAIpAM=",
         "owner": "hakula139",
         "repo": "wakatime-cli",
-        "rev": "717cdd6df45c21e48bedb342788adfb78cba4023",
+        "rev": "cbcee226cc46cfbf490a5652584b8090157520cb",
         "type": "github"
       },
       "original": {
