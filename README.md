@@ -89,4 +89,4 @@ Copyright (c) 2026 [Hakula](https://hakula.xyz). Licensed under the [MIT License
 [agent-project-move]: https://github.com/hakula139/agent-project-move
 [listenbrainz-scrobbler]: https://github.com/hakula139/listenbrainz-scrobbler
 [oxide-code]: https://github.com/hakula139/oxide-code
-[wakatime-cli]: https://github.com/hakula139/wakatime-cli
+[wakatime-cli]: https://github.com/hakulab/wakatime-cli
