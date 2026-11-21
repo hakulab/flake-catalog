@@ -868,13 +868,13 @@
       "locked": {
         "lastModified": 1795286792,
         "narHash": "sha256-TtstCeqvIPnYEZsB4wp+NzcpXwFO1FabiMPxReAIpAM=",
-        "owner": "hakula139",
+        "owner": "hakulab",
         "repo": "wakatime-cli",
         "rev": "cbcee226cc46cfbf490a5652584b8090157520cb",
         "type": "github"
       },
       "original": {
-        "owner": "hakula139",
+        "owner": "hakulab",
         "repo": "wakatime-cli",
         "type": "github"
       }

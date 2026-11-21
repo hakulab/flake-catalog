@@ -33,7 +33,7 @@
     listenbrainz-scrobbler.url = "github:hakula139/listenbrainz-scrobbler";
     oxide-code.url = "github:hakula139/oxide-code";
     plugins.url = "github:hakula139/plugins";
-    wakatime-cli.url = "github:hakula139/wakatime-cli";
+    wakatime-cli.url = "github:hakulab/wakatime-cli";
   };
 
   # ------------------------------------------------------------------------------------------------
