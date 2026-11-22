@@ -79,7 +79,7 @@ run-hooks
 nix flake check --all-systems
 ```
 
-See devkit's shared [CI](https://github.com/hakula139/devkit/blob/v3/docs/ci.md) and [release procedures](https://github.com/hakula139/devkit/blob/v3/docs/releasing.md).
+See devkit's shared [CI](https://github.com/hakulab/devkit/blob/v3/docs/ci.md) and [release procedures](https://github.com/hakulab/devkit/blob/v3/docs/releasing.md).
 
 ## License
 
