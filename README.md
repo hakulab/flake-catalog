@@ -1,6 +1,6 @@
 # flake-catalog
 
-[![CI](https://github.com/hakula139/flake-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/hakula139/flake-catalog/actions/workflows/ci.yml)
+[![CI](https://github.com/hakulab/flake-catalog/actions/workflows/ci.yml/badge.svg)](https://github.com/hakulab/flake-catalog/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Versioned Nix flake catalog for Hakula's projects. Packages are the upstream derivations, with each project's locked dependencies and toolchain preserved.
@@ -17,14 +17,14 @@ Packages use `packages.<system>.<name>`. Original Home Manager modules use `home
 | [`oxide-code`][oxide-code]                         | Yes            | Yes           | Yes          | Yes          |
 | [`wakatime-cli`][wakatime-cli]                     | Yes            | Yes           | Yes          |              |
 
-`lib.skills` exposes [Plugins](https://github.com/hakula139/plugins)' skill sources. `overlays.default` aliases those packages in the consumer's package set.
+`lib.skills` exposes [Plugins](https://github.com/hakulab/plugins)' skill sources. `overlays.default` aliases those packages in the consumer's package set.
 
 ## Consume
 
 Add the input and commit the resulting lock:
 
 ```nix
-inputs.flake-catalog.url = "github:hakula139/flake-catalog";
+inputs.flake-catalog.url = "github:hakulab/flake-catalog";
 ```
 
 Append an existing release tag to the input URL to pin a catalog version.
@@ -85,8 +85,8 @@ See devkit's shared [CI](https://github.com/hakulab/devkit/blob/v3/docs/ci.md) a
 
 Copyright (c) 2026 [Hakula](https://hakula.xyz). Licensed under the [MIT License](LICENSE).
 
-[activity-report]: https://github.com/hakula139/activity-report
-[agent-project-move]: https://github.com/hakula139/agent-project-move
-[listenbrainz-scrobbler]: https://github.com/hakula139/listenbrainz-scrobbler
-[oxide-code]: https://github.com/hakula139/oxide-code
+[activity-report]: https://github.com/hakulab/activity-report
+[agent-project-move]: https://github.com/hakulab/agent-project-move
+[listenbrainz-scrobbler]: https://github.com/hakulab/listenbrainz-scrobbler
+[oxide-code]: https://github.com/hakulab/oxide-code
 [wakatime-cli]: https://github.com/hakulab/wakatime-cli
