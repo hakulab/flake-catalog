@@ -28,11 +28,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    activity-report.url = "github:hakula139/activity-report";
-    agent-project-move.url = "github:hakula139/agent-project-move";
-    listenbrainz-scrobbler.url = "github:hakula139/listenbrainz-scrobbler";
-    oxide-code.url = "github:hakula139/oxide-code";
-    plugins.url = "github:hakula139/plugins";
+    activity-report.url = "github:hakulab/activity-report";
+    agent-project-move.url = "github:hakulab/agent-project-move";
+    listenbrainz-scrobbler.url = "github:hakulab/listenbrainz-scrobbler";
+    oxide-code.url = "github:hakulab/oxide-code";
+    plugins.url = "github:hakulab/plugins";
     wakatime-cli.url = "github:hakulab/wakatime-cli";
   };
 
