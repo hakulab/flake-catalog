@@ -794,11 +794,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1795568052,
-        "narHash": "sha256-i85Ft2zCgKZBkyGZHO9v1F4Sli/To/FrYQuQ9ubfwjg=",
+        "lastModified": 1795574598,
+        "narHash": "sha256-/MyInTV/6UFGHs+kCquxB2qPLYFxL3KSr0lTaTUD1O0=",
         "owner": "hakulab",
         "repo": "oxide-code",
-        "rev": "697fe182b85d798785aaf90ff5568351a0521646",
+        "rev": "22fc0a501d6cbbc431d4c7ca07b4cbd9bbdef70d",
         "type": "github"
       },
       "original": {
