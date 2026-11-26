@@ -30,6 +30,7 @@
 
     activity-report.url = "github:hakulab/activity-report";
     agent-project-move.url = "github:hakulab/agent-project-move";
+    claude-statusline.url = "github:hakulab/claude-statusline";
     listenbrainz-scrobbler.url = "github:hakulab/listenbrainz-scrobbler";
     oxide-code.url = "github:hakulab/oxide-code";
     plugins.url = "github:hakulab/plugins";
@@ -46,6 +47,7 @@
       devkit,
       activity-report,
       agent-project-move,
+      claude-statusline,
       listenbrainz-scrobbler,
       oxide-code,
       plugins,
@@ -56,6 +58,7 @@
       homeModules = {
         activity-report = activity-report.homeModules.default;
         agent-project-move = agent-project-move.homeModules.default;
+        claude-statusline = claude-statusline.homeModules.default;
         listenbrainz-scrobbler = listenbrainz-scrobbler.homeModules.default;
         oxide-code = oxide-code.homeModules.default;
       };
@@ -101,6 +104,7 @@
         packages = {
           activity-report = activity-report.packages.${system}.activity-report;
           agent-project-move = agent-project-move.packages.${system}.agent-project-move;
+          claude-statusline = claude-statusline.packages.${system}.claude-statusline;
           oxide-code = oxide-code.packages.${system}.oxide-code;
           wakatime-cli = wakatime-cli.packages.${system}.wakatime-cli;
         }

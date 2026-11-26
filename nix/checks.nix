@@ -20,6 +20,7 @@ let
   upstreamPackages = {
     inherit (inputs.activity-report.packages.${system}) activity-report;
     inherit (inputs.agent-project-move.packages.${system}) agent-project-move;
+    inherit (inputs.claude-statusline.packages.${system}) claude-statusline;
     inherit (inputs.oxide-code.packages.${system}) oxide-code;
     inherit (inputs.wakatime-cli.packages.${system}) wakatime-cli;
   }
@@ -56,6 +57,7 @@ let
   moduleNames = [
     "activity-report"
     "agent-project-move"
+    "claude-statusline"
     "oxide-code"
   ]
   ++ lib.optional isDarwin "listenbrainz-scrobbler";
@@ -79,6 +81,8 @@ let
       };
 
       agent-project-move.enable = true;
+
+      claude-statusline.enable = true;
 
       oxide-code = {
         enable = true;

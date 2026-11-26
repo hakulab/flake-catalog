@@ -38,6 +38,25 @@
         "type": "github"
       }
     },
+    "claude-statusline": {
+      "inputs": {
+        "devkit": "devkit_3",
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1795689880,
+        "narHash": "sha256-3UBN2Ol4xSIyo8GOSJcIuygQ7eFDkXRnr/jgEJbcCOc=",
+        "owner": "hakulab",
+        "repo": "claude-statusline",
+        "rev": "f5d72426f32b88f15a7b13fbbe68e4b90acba0f2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hakulab",
+        "repo": "claude-statusline",
+        "type": "github"
+      }
+    },
     "devkit": {
       "inputs": {
         "git-hooks-nix": "git-hooks-nix",
@@ -90,6 +109,7 @@
       "inputs": {
         "git-hooks-nix": "git-hooks-nix_3",
         "nixpkgs": [
+          "claude-statusline",
           "nixpkgs"
         ],
         "nixpkgs-unstable": "nixpkgs-unstable_3"
@@ -113,7 +133,6 @@
       "inputs": {
         "git-hooks-nix": "git-hooks-nix_4",
         "nixpkgs": [
-          "listenbrainz-scrobbler",
           "nixpkgs"
         ],
         "nixpkgs-unstable": "nixpkgs-unstable_4"
@@ -137,7 +156,7 @@
       "inputs": {
         "git-hooks-nix": "git-hooks-nix_5",
         "nixpkgs": [
-          "oxide-code",
+          "listenbrainz-scrobbler",
           "nixpkgs"
         ],
         "nixpkgs-unstable": "nixpkgs-unstable_5"
@@ -161,10 +180,34 @@
       "inputs": {
         "git-hooks-nix": "git-hooks-nix_6",
         "nixpkgs": [
-          "plugins",
+          "oxide-code",
           "nixpkgs"
         ],
         "nixpkgs-unstable": "nixpkgs-unstable_6"
+      },
+      "locked": {
+        "lastModified": 1795441529,
+        "narHash": "sha256-Gh1fTS/qRBR5mXsBDdrFomXl9dr4qMIDcayo9jLy7Po=",
+        "owner": "hakulab",
+        "repo": "devkit",
+        "rev": "55aef646ce32b880a0fa770bed1b68179897fe44",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hakulab",
+        "ref": "v3",
+        "repo": "devkit",
+        "type": "github"
+      }
+    },
+    "devkit_7": {
+      "inputs": {
+        "git-hooks-nix": "git-hooks-nix_7",
+        "nixpkgs": [
+          "plugins",
+          "nixpkgs"
+        ],
+        "nixpkgs-unstable": "nixpkgs-unstable_7"
       },
       "locked": {
         "lastModified": 1795435768,
@@ -181,14 +224,14 @@
         "type": "github"
       }
     },
-    "devkit_7": {
+    "devkit_8": {
       "inputs": {
-        "git-hooks-nix": "git-hooks-nix_7",
+        "git-hooks-nix": "git-hooks-nix_8",
         "nixpkgs": [
           "wakatime-cli",
           "nixpkgs"
         ],
-        "nixpkgs-unstable": "nixpkgs-unstable_7"
+        "nixpkgs-unstable": "nixpkgs-unstable_8"
       },
       "locked": {
         "lastModified": 1795441529,
@@ -317,6 +360,22 @@
         "type": "github"
       }
     },
+    "flake-compat_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1767039857,
+        "narHash": "sha256-vNpUSpF5Nuw8xvDLj2KCwwksIbjua2LZCqhV1LNRDns=",
+        "owner": "NixOS",
+        "repo": "flake-compat",
+        "rev": "5edf11c44bc78a0d334f6334cdaf7d60d732daab",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "flake-compat",
+        "type": "github"
+      }
+    },
     "git-hooks-nix": {
       "inputs": {
         "flake-compat": "flake-compat",
@@ -367,6 +426,7 @@
       "inputs": {
         "flake-compat": "flake-compat_3",
         "nixpkgs": [
+          "claude-statusline",
           "devkit",
           "nixpkgs"
         ]
@@ -389,7 +449,6 @@
       "inputs": {
         "flake-compat": "flake-compat_4",
         "nixpkgs": [
-          "listenbrainz-scrobbler",
           "devkit",
           "nixpkgs"
         ]
@@ -412,7 +471,7 @@
       "inputs": {
         "flake-compat": "flake-compat_5",
         "nixpkgs": [
-          "oxide-code",
+          "listenbrainz-scrobbler",
           "devkit",
           "nixpkgs"
         ]
@@ -435,7 +494,7 @@
       "inputs": {
         "flake-compat": "flake-compat_6",
         "nixpkgs": [
-          "plugins",
+          "oxide-code",
           "devkit",
           "nixpkgs"
         ]
@@ -457,6 +516,29 @@
     "git-hooks-nix_7": {
       "inputs": {
         "flake-compat": "flake-compat_7",
+        "nixpkgs": [
+          "plugins",
+          "devkit",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791909798,
+        "narHash": "sha256-VAhpCOmrun/KXimYfR8NM88bciKCui7CqHHhThSzgag=",
+        "owner": "cachix",
+        "repo": "git-hooks.nix",
+        "rev": "1ba1dbfe28738c9a71c266be6efa5b89e75491a9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cachix",
+        "repo": "git-hooks.nix",
+        "type": "github"
+      }
+    },
+    "git-hooks-nix_8": {
+      "inputs": {
+        "flake-compat": "flake-compat_8",
         "nixpkgs": [
           "wakatime-cli",
           "devkit",
@@ -544,9 +626,9 @@
     },
     "listenbrainz-scrobbler": {
       "inputs": {
-        "devkit": "devkit_4",
+        "devkit": "devkit_5",
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1795481848,
@@ -690,6 +772,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-unstable_8": {
+      "locked": {
+        "lastModified": 1793540411,
+        "narHash": "sha256-fiPJ88izTVucjeo2EQ3jk4aWmLg03I1D4vxnX2QjEgE=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0bb2eedc20e4739f29e8045034f2828ad7054f8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1795370043,
@@ -756,6 +854,22 @@
     },
     "nixpkgs_6": {
       "locked": {
+        "lastModified": 1795370043,
+        "narHash": "sha256-s/0jq8usZtLVOolYBwmyUmd3JsfAu7w3FU+a0dgMqSY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "0dc498bfe49baeb18b0f9891e800b53bb2603193",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_7": {
+      "locked": {
         "lastModified": 1794552581,
         "narHash": "sha256-qXFIqA6FCcx7XeDzw0ZNlkDT9UiCzrNDwK8RuU8RcHM=",
         "owner": "NixOS",
@@ -770,7 +884,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_7": {
+    "nixpkgs_8": {
       "locked": {
         "lastModified": 1794872590,
         "narHash": "sha256-E+XLAfnC7+bdr4qlEgRv6cdGmiqTU5oeFNKCha7epqQ=",
@@ -788,9 +902,9 @@
     },
     "oxide-code": {
       "inputs": {
-        "devkit": "devkit_5",
+        "devkit": "devkit_6",
         "home-manager": "home-manager_3",
-        "nixpkgs": "nixpkgs_5",
+        "nixpkgs": "nixpkgs_6",
         "rust-overlay": "rust-overlay"
       },
       "locked": {
@@ -809,8 +923,8 @@
     },
     "plugins": {
       "inputs": {
-        "devkit": "devkit_6",
-        "nixpkgs": "nixpkgs_6"
+        "devkit": "devkit_7",
+        "nixpkgs": "nixpkgs_7"
       },
       "locked": {
         "lastModified": 1795436797,
@@ -830,10 +944,11 @@
       "inputs": {
         "activity-report": "activity-report",
         "agent-project-move": "agent-project-move",
-        "devkit": "devkit_3",
+        "claude-statusline": "claude-statusline",
+        "devkit": "devkit_4",
         "home-manager": "home-manager",
         "listenbrainz-scrobbler": "listenbrainz-scrobbler",
-        "nixpkgs": "nixpkgs_4",
+        "nixpkgs": "nixpkgs_5",
         "oxide-code": "oxide-code",
         "plugins": "plugins",
         "wakatime-cli": "wakatime-cli"
@@ -862,8 +977,8 @@
     },
     "wakatime-cli": {
       "inputs": {
-        "devkit": "devkit_7",
-        "nixpkgs": "nixpkgs_7"
+        "devkit": "devkit_8",
+        "nixpkgs": "nixpkgs_8"
       },
       "locked": {
         "lastModified": 1795443849,
