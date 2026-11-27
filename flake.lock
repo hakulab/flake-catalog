@@ -44,11 +44,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1795759320,
-        "narHash": "sha256-quwr6XxG3pZkBt1QiJp6zZ1Zcg6X6BTNzN5BNFM0Ngc=",
+        "lastModified": 1795760179,
+        "narHash": "sha256-b4kk69lzTWV9THCf5mJdwaUbMZsROpxlKDFm7eed1K4=",
         "owner": "hakulab",
         "repo": "claude-statusline",
-        "rev": "664b257c34ac728f994afaa95137dbae4f13474a",
+        "rev": "83d81938d652ddd9a52fe8f47dd4b290a47576db",
         "type": "github"
       },
       "original": {
