@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2026-11-27
+
+### Added
+
+- Add Claude Statusline (`v1.0.0-rc.2`) as a package on `aarch64-darwin`, `aarch64-linux`, and `x86_64-linux` and as `homeModules.claude-statusline`, including configurable theme presets, per-slot overrides, and `NO_COLOR` support ([#31](https://github.com/hakulab/flake-catalog/pull/31), [#32](https://github.com/hakulab/flake-catalog/pull/32), [#33](https://github.com/hakulab/flake-catalog/pull/33), [#34](https://github.com/hakulab/flake-catalog/pull/34)).
+
+### Changed
+
+- Migrate catalog flake inputs, shared tooling, and documentation links from `hakula139` to `hakulab` ([#22](https://github.com/hakulab/flake-catalog/pull/22), [#23](https://github.com/hakulab/flake-catalog/pull/23), [#24](https://github.com/hakulab/flake-catalog/pull/24), [#25](https://github.com/hakulab/flake-catalog/pull/25), [#26](https://github.com/hakulab/flake-catalog/pull/26)).
+- Refresh `flake.lock` inputs across `nixpkgs`, `home-manager`, `devkit` (to `v3.8.3`), `plugins` (to `349743a`, updating code-layout, Git workflow, Nix, and Markdown guidance), and the remaining upstream project locks ([#19](https://github.com/hakulab/flake-catalog/pull/19), [#20](https://github.com/hakulab/flake-catalog/pull/20), [#27](https://github.com/hakulab/flake-catalog/pull/27), [#28](https://github.com/hakulab/flake-catalog/pull/28), [#30](https://github.com/hakulab/flake-catalog/pull/30), [#32](https://github.com/hakulab/flake-catalog/pull/32)).
+- Document channel semantics in `README.md`, distinguishing release tags as stable pinned snapshots from floating `main` as the unstable channel ([#35](https://github.com/hakulab/flake-catalog/pull/35)).
+
+### Fixed
+
+- Update WakaTime CLI to `v2.28.4-hakula.4` to improve AI project attribution, preserve project switches during heartbeat compaction, fix Git checkout path handling, and improve batch delivery and offline retries ([#21](https://github.com/hakulab/flake-catalog/pull/21)).
+- Update Oxide Code to `v0.1.0-alpha.13` to exclude `/` from bracket character classes and support POSIX character classes in permission path globs, guard modified keys in TUI modals, and fix `Ctrl+Home` / `Ctrl+End` chat scrolling ([#29](https://github.com/hakulab/flake-catalog/pull/29), [#32](https://github.com/hakulab/flake-catalog/pull/32)).
+
+[0.3.0]: https://github.com/hakulab/flake-catalog/compare/v0.2.0...v0.3.0
+
 ## [0.2.0] - 2026-11-18
 
 ### Breaking changes
