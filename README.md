@@ -13,6 +13,7 @@ Packages use `packages.<system>.<name>`. Original Home Manager modules use `home
 | -------------------------------------------------- | -------------- | ------------- | ------------ | ------------ |
 | [`activity-report`][activity-report]               | Yes            | Yes           | Yes          | Yes          |
 | [`agent-project-move`][agent-project-move]         | Yes            | Yes           | Yes          | Yes          |
+| [`claude-statusline`][claude-statusline]           | Yes            | Yes           | Yes          | Yes          |
 | [`listenbrainz-scrobbler`][listenbrainz-scrobbler] | Yes            |               |              | Darwin       |
 | [`oxide-code`][oxide-code]                         | Yes            | Yes           | Yes          | Yes          |
 | [`wakatime-cli`][wakatime-cli]                     | Yes            | Yes           | Yes          |              |
@@ -87,6 +88,7 @@ Copyright (c) 2026 [Hakula](https://hakula.xyz). Licensed under the [MIT License
 
 [activity-report]: https://github.com/hakulab/activity-report
 [agent-project-move]: https://github.com/hakulab/agent-project-move
+[claude-statusline]: https://github.com/hakulab/claude-statusline
 [listenbrainz-scrobbler]: https://github.com/hakulab/listenbrainz-scrobbler
 [oxide-code]: https://github.com/hakulab/oxide-code
 [wakatime-cli]: https://github.com/hakulab/wakatime-cli
