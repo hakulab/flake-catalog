@@ -25,10 +25,14 @@ Packages use `packages.<system>.<name>`. Original Home Manager modules use `home
 Add the input and commit the resulting lock:
 
 ```nix
+# Stable channel (pinned release tag)
+inputs.flake-catalog.url = "github:hakulab/flake-catalog/<tag>";
+
+# Unstable channel (floating main)
 inputs.flake-catalog.url = "github:hakulab/flake-catalog";
 ```
 
-Append an existing release tag to the input URL to pin a catalog version.
+Release tags (such as `v0.2.0`) act as stable pinned snapshots locking a verified set of upstream revisions. Floating `main` acts as the unstable channel tracking the latest verified updates.
 
 Keep the catalog's project inputs and transitive dependencies unchanged, without consumer `follows` overrides. Overriding them changes the tested derivations.
 
@@ -70,7 +74,7 @@ For NixOS / nix-darwin, put the same settings under `nix.settings`, following th
 
 ## Versioning
 
-Catalog versions are independent of project versions. Removing or renaming an output or dropping a platform requires a major version. Additions are minor, and compatible corrections and project updates are patch changes unless an integration contract changes.
+Release tags are cut from `main` after CI passes. Catalog versions are independent of project versions. Removing or renaming an output or dropping a platform requires a major version. Additions are minor, and compatible corrections and project updates are patch changes unless an integration contract changes.
 
 ## Development
 
