@@ -84,10 +84,7 @@
           src = ./.;
           hooks = {
             markdownlint-cli2.settings.configPath = "";
-            prettier = {
-              enable = true;
-              settings.configPath = "";
-            };
+            prettier.enable = true;
             shellcheck.enable = true;
             shfmt.enable = true;
           };
