@@ -83,6 +83,7 @@
         preCommit = dk.preCommit {
           src = ./.;
           hooks = {
+            markdownlint-cli2.settings.configPath = "";
             prettier.enable = true;
             shellcheck.enable = true;
             shfmt.enable = true;
